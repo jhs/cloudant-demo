@@ -37,7 +37,7 @@ Cloudant({account:'jhs', password:process.env.pw}, function(er, cloudant) {
           if (er)
             console.log('Put %s: %s', winner, er.message)
           else
-            console.log('Stored %s: %j', winner, Body)
+            console.log('Stored %s: %j', winner, body)
         })
       })
     })
